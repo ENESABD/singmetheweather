@@ -24,7 +24,7 @@ function Welcome({ setBadQuery, badQuery, setWelcomed, setPreferredLocation }) {
         
         const getPredictions = async (search_word) => {
             if (search_word !== ""){
-                await axios.get(`https://singmetheweather.herokuapp.com/autocomplete/?search_word=${search_word}`)
+                await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/autocomplete/?search_word=${search_word}`)
                     .then(res => {
                         setPredictions(res.data);
                     })

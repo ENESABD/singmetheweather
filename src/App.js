@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './pages/Home/Home';
 import About from './pages/About';
@@ -54,10 +54,10 @@ function App() {
         </header>
         
 
-        <Switch>
-          <Route path="/" exact render={() => <Home setPhotoUrl={setPhotoUrl} hasWelcomed={hasWelcomed} setWelcomed={setWelcomed}/> }/>
-          <Route path="/about" component={About} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home setPhotoUrl={setPhotoUrl} hasWelcomed={hasWelcomed} setWelcomed={setWelcomed}/>}/>
+          <Route path="/about" element={<About/>} />
+        </Routes>
 
         <Footer />
 

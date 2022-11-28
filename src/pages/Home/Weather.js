@@ -41,7 +41,7 @@ function Weather({ setWelcomed, setBadQuery, preferredLocation, setForCategory, 
                     setLon(lon1);
     
                     //instead of using the api's unit parameter, conversion functions can be used to save api calls
-                    await axios.get(`https://singmetheweather.herokuapp.com/weather/?lat=${lat1}&lon=${lon1}&units=${unit}`)
+                    await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/weather/?lat=${lat1}&lon=${lon1}&units=${unit}`)
                         .then(res => {
                             setAllWeatherInfo(res.data);
                             setHoursWeather(res.data.hourly);
@@ -57,7 +57,7 @@ function Weather({ setWelcomed, setBadQuery, preferredLocation, setForCategory, 
                 let lat;
                 let lon;
                 let bad_query = false;
-                await axios.get(`https://singmetheweather.herokuapp.com/autocomplete/?search_word=${preferredLocation}`)
+                await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/autocomplete/?search_word=${preferredLocation}`)
                     .then(res => {
                         if (res.data[0]) {
                             place_id = res.data[0].place_id;
@@ -72,7 +72,7 @@ function Weather({ setWelcomed, setBadQuery, preferredLocation, setForCategory, 
                     })
                     .catch(err => console.log(err));
                 if (!bad_query) {
-                    await axios.get(`https://singmetheweather.herokuapp.com/place/?place_id=${place_id}`)
+                    await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/place/?place_id=${place_id}`)
                         .then(res => {
                             lat = res.data.lat;
                             lon = res.data.lon;
@@ -80,7 +80,7 @@ function Weather({ setWelcomed, setBadQuery, preferredLocation, setForCategory, 
                         })
                         .catch(err => console.log(err));
 
-                    await axios.get(`https://singmetheweather.herokuapp.com/weather/?lat=${lat}&lon=${lon}&units=${unit}`)
+                    await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/weather/?lat=${lat}&lon=${lon}&units=${unit}`)
                         .then(res => {
                             setAllWeatherInfo(res.data);
                             setHoursWeather(res.data.hourly);
