@@ -11,7 +11,7 @@ function Place({ setDescription, description, lat, lon, setPhotoUrl }) {
     useEffect(()=> {
 
         const getAdressInfo = async () => {
-            await axios.get(`https://tame-cautious-minotaurasaurus.glitch.me/place/?lat=${lat}&lon=${lon}`)
+            await axios.get(`https://sing-me-the-weather-server-production.up.railway.app/place/?lat=${lat}&lon=${lon}`)
                 .then(res => {
                     setDescription(res.data.description);
                     setPhotoUrl(res.data.photo_url);
