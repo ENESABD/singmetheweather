@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/singmetheweather/static/css/main.9c379759.css",
+    "main.js": "/singmetheweather/static/js/main.b43d89a9.js",
+    "static/media/10n.svg": "/singmetheweather/static/media/10n.9e51803da86fc2b11e35.svg",
+    "static/media/02n.svg": "/singmetheweather/static/media/02n.dcb94708dd1a0a4f427d.svg",
+    "static/media/11d.svg": "/singmetheweather/static/media/11d.f8801f594924a489e421.svg",
+    "static/media/11n.svg": "/singmetheweather/static/media/11n.f8801f594924a489e421.svg",
+    "static/media/10d.svg": "/singmetheweather/static/media/10d.4c17e50d35caa21261b7.svg",
+    "static/media/04d.svg": "/singmetheweather/static/media/04d.6e9e6e5fddd3d14345f9.svg",
+    "static/media/04n.svg": "/singmetheweather/static/media/04n.6e9e6e5fddd3d14345f9.svg",
+    "static/media/02d.svg": "/singmetheweather/static/media/02d.932758eb8269fb776fe2.svg",
+    "static/media/03d.svg": "/singmetheweather/static/media/03d.8b7dd55e359f1073b6be.svg",
+    "static/media/03n.svg": "/singmetheweather/static/media/03n.8b7dd55e359f1073b6be.svg",
+    "static/media/01d.svg": "/singmetheweather/static/media/01d.79682a3039aeffb721a7.svg",
+    "static/media/13d.svg": "/singmetheweather/static/media/13d.69467c5f8bcf604d77b1.svg",
+    "static/media/13n.svg": "/singmetheweather/static/media/13n.69467c5f8bcf604d77b1.svg",
+    "static/media/01n.svg": "/singmetheweather/static/media/01n.b187a9cbd43c32b2fbd5.svg",
+    "static/media/09d.svg": "/singmetheweather/static/media/09d.a3396fdd66282f03591d.svg",
+    "static/media/09n.svg": "/singmetheweather/static/media/09n.a3396fdd66282f03591d.svg",
+    "index.html": "/singmetheweather/index.html",
+    "static/media/50d.svg": "/singmetheweather/static/media/50d.9d05af4c0002a0db33b5.svg",
+    "static/media/50n.svg": "/singmetheweather/static/media/50n.9d05af4c0002a0db33b5.svg",
+    "main.9c379759.css.map": "/singmetheweather/static/css/main.9c379759.css.map",
+    "main.b43d89a9.js.map": "/singmetheweather/static/js/main.b43d89a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c379759.css",
+    "static/js/main.b43d89a9.js"
+  ]
+}
